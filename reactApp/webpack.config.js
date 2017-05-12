@@ -2,13 +2,13 @@ var config = {
    entry: './main.js',
 	
    output: {
-      path: '/',
-      filename: 'index.js'
+      path:'/',
+      filename: './index.js',
    },
 	
    devServer: {
       inline: true,
-      port: 8080
+      port: 8000
    },
 	
    module: {
@@ -26,4 +26,4 @@ var config = {
    }
 }
 
-module.exports = config;
+module.exports = config
