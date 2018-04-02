@@ -4,7 +4,7 @@
   "description": "my first app",
   "main": "index.js",
   "scripts": {
-      "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot"
   },
   "author": "Shashi",
   "license": "ISC",
@@ -13,9 +13,11 @@
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
   }
 }
